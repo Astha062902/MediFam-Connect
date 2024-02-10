@@ -1,0 +1,238 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #edf3df;
+  }
+  
+  .calendar-container {
+    width: 45%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #9AD0C2;
+  }
+  
+  .calendar-header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .react-calendar {
+    margin-left: 195px;
+    max-width: 2000px;
+    max-height: 2000px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    background-color:#2D9596;
+    font-size: larger;
+  }
+  
+  .react-calendar__navigation {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    background-color: #2D9596;
+    font-size: larger;
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth,
+  .react-calendar__month-view__days__day--neighboringMonth:enabled:hover,
+  .react-calendar__tile--now:enabled:hover,
+  .react-calendar__tile--now {
+    color: #ccc;
+  }
+/*   
+  .reminders-container {
+    width: 45%;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  
+  }
+  
+  .reminder-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+     display: flex;
+    align-items: center;
+    position: relative;
+  }
+   
+  h3{
+    text-align: left;
+  }
+
+ 
+  
+  .timeline {
+    top: 0;
+    position: absolute;
+    left: 10px; 
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    z-index: -1; 
+
+    
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+    
+  }
+
+  .reminder-content {
+    flex-grow: 1;
+  }
+
+ .time {
+    margin-right: 10px;
+  } 
+
+*/
+
+  
+  
+  
+  /* .reminders-container {
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    
+  }
+  
+  .reminder-item {
+ 
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .timeline {
+    position: absolute;
+    top: 0;
+    left: 5px; 
+    width: 2px;
+    height: 100%; 
+    background-color: black;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+  }
+  
+  .time {
+    margin-right: 0px;
+  }
+  
+  .reminder-content {
+    flex-grow: 1;
+  } */
+  
+  
+  .reminders-container {
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Needed for positioning the timeline */
+   
+  }
+
+  h3{
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .reminder-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: left;
+  
+  }
+
+  .reminder-content {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #9AD0C2;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      flex-grow: 1;
+    
+  }
+  
+  .timeline {
+    position: absolute;
+    top: 0; /* Position the timeline at the top of the reminders container */
+    left: 5px; /* Adjust left position to align with circles */
+    width: 2px;
+    height: 100%; /* Extend the timeline to the bottom of the reminders container */
+    background-color: black;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 10px;
+  }
+  
+  .time {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+ 
+  
+  .add-reminder-btn {
+    background-color: #2D9596;; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    margin-left: 150px;
+  }
+  
+  .add-reminder-btn:hover {
+    background-color: #20696a;; /* Darker shade of blue on hover */
+  }
+  
+  
+  
+  
+
+  

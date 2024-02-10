@@ -1,0 +1,42 @@
+.calendar-slider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* .dates-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-right: 10px; /* Adjust as needed */
+
+
+  .dates-wrapper {
+    display: flex;
+   
+  }
+  .date-card {
+    flex: 0 0 auto;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    background-color: #265073;
+    margin-right: 5px; /* Adjust as needed */
+    scroll-snap-align: start;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-size: large;
+  }
+  .date-card.selected {
+    border: 5px solid #edf3df;
+  }
+  
+  
+  .prev-btn,
+  .next-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

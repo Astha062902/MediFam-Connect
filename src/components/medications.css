@@ -1,0 +1,186 @@
+/* medications.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color:  #2D9596;
+  }
+
+  
+.form-container {
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #2D9596;
+    border-radius: 8px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center horizontally */
+    background-color: #9AD0C2;
+  }
+  
+  .medication-cards {
+    width: 40%;
+  }
+  
+  .new-medication-form {
+    width: 60%;
+  }
+  
+  .medication-card {
+    border: 1px solid #2D9596;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #edf3df;
+ 
+  }
+  
+  .medication-card img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  
+  .medication-details {
+    display: flex;
+    text-align: left;
+    margin-bottom: 8px;
+    max-height: 100px;
+    padding-left: 20px; /* Add padding to start from about 20px from the left */
+}
+ 
+  
+  .medication-details p {
+    margin: 0;
+    text-align: left;
+    line-height: 1.2; /* Reduce spacing between text lines */
+  }
+  
+  .medication-icons,
+  .timing-icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .medication-option {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .medication-option-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .medication-option-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf3df;
+  }
+  
+  .medication-option-icon img {
+    width: 24px;
+    height: 24px;
+   
+  }
+
+  .medication-option.selected .medication-option-icon {
+    border: 2px solid #265073;
+   
+  }
+  
+  
+  .medication-option-content span {
+    font-size: 12px;
+    text-align: center;
+  }
+
+   
+  .timing-icons, .medication-icons {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .timing-icons label, .medication-icons label {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .timing-icons input[type="checkbox"], .medication-icons input[type="radio"] {
+    display: none;
+ 
+  }
+  
+  .timing-icons label.medication-option.selected .medication-option-icon, .medication-icons label.medication-option.selected .medication-option-icon {
+    border: 2px solid #265073;
+    ;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+    width: 100%; /* Ensure the form groups take up full width */
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2D9596;
+    border-radius: 4px;
+    background-color: #edf3df;
+  }
+
+  .form-group select {
+    width: calc(50% - 6px); /* Adjust width as needed */
+    padding: 8px;
+    border: 1px solid #2D9596;
+    border-radius: 4px;
+    margin-right: 8px; /* Add spacing between inputs */
+    background-color: #edf3df;
+ }
+
+  .form-group select:last-child {
+    margin-right: 0; /* Remove margin from last select */
+  }
+  
+  .form-group input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #265073;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+     background-color: #2D9596;
+  }
+
+
+  
+
+
+   

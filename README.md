@@ -12,19 +12,24 @@ Our Web App aims to alleviate the above issues by providing a platform to organi
  * Customization: Our web app is customized to display data relevant to a patient's age and gender. This personalized approach ensures that Medifam remains relevant and adaptable to your family's healthcare needs, from childhood through old age.
  * Comprehensive Record Keeping: Our platform allows doctors to submit symptoms, diagnoses, treatment plans, and other pertinent details that can be accessed during future visits or shared with other healthcare providers involved in your care.
 By offering these features, our web app streamlines the management of healthcare records, promotes better communication between patients and healthcare providers, and ultimately enhances the overall quality of care delivered to families.
- ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/logo2.0.jpg)
-## General Functionality
-### Profiles Page
-- Presents options for "rider" and "driver" profiles, allowing users to select based on their specific needs.
 
+ ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/logo2.0.jpg)
+ 
+## General Functionality
+
+### HomePage
+![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/homepage.jpg)
+### Profiles
+![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/profiles.jpg)
 ### Dashboard
-- **Grandfather**
+ - **Grandfather**
   - Includes sections for:
     - Patient Information
     - Allergies
     - Medical History
     - Recent Screenings/Laboratory Tests
-- **Mother**
+    ![](
+ - **Mother**
   - Contains sections for:
     - Patient Information
     - Allergies
@@ -32,6 +37,7 @@ By offering these features, our web app streamlines the management of healthcare
     - Obstetric Current Medications
       - View Current Medication
       - Add New Medication
+  ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/DashboardMom.jpg)  
 ### Laboratory Tests
       - X-Ray
       - MRI
@@ -40,15 +46,15 @@ By offering these features, our web app streamlines the management of healthcare
       - Blood Test
       - Electrocardiography
       - Other
+ ![](     
 ### Medical History
       * Timeline of Conditions
       * Procedures Used
       * Immunizations
       * Clinical Reports
- ### Reminders
-    Allows users to:
+ ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/medicalHis.jpg)    
+### Reminders
     *  Set reminders for Medications and Appointments
     * Utilize Calendar Features
-## Screenshots of Our Project
-
+![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/reminder.jpg)
 

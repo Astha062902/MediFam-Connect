@@ -1,0 +1,15 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

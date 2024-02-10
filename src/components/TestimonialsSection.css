@@ -1,0 +1,42 @@
+/* TestimonialsSection.css */
+
+.testimonials-section {
+    padding: 80px 20px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Adjust background color to your design */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  .testimonial img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the images circular */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 15px;
+  }
+  
+  cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  

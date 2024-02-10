@@ -1,0 +1,35 @@
+/* BlogSection.css */
+
+.blog-section {
+    padding: 80px 20px; /* Adjust padding as needed */
+    background-color: #f5f5f5; /* Adjust background color to your design */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 40px;
+  }
+  
+  .blog-posts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .blog-post {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-top: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 10px;
+  }
+  

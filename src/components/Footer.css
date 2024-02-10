@@ -1,0 +1,21 @@
+/* Footer.css */
+
+.main-footer {
+    padding: 20px;
+    background-color: #333; /* Adjust background color to your design */
+    color: #fff; /* Adjust text color to your design */
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #fff; /* Adjust link color to your design */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media-links img {
+    width: 30px; /* Adjust icon width as needed */
+    height: 30px; /* Adjust icon height as needed */
+    margin: 0 10px;
+  }
+  

@@ -2,15 +2,12 @@
 
 import React from "react";
 import "./Header.css"; // Import your CSS file
-
+import logo from "./logo.png";
 const Header: React.FC = () => {
   return (
     <header className="main-header">
       <div className="logo-container">
-        <img
-          src="/Users/anamikakumari/hacky/src/components/logo.png"
-          alt="Medifam Connect Logo"
-        />
+        <img src={logo} alt="Medifam Connect Logo" />
       </div>
       <nav className="main-nav">
         <ul>
@@ -21,13 +18,16 @@ const Header: React.FC = () => {
             <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#pricing">Pricing</a>
+            <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <a href="#contact">Contact Us</a>
           </li>
           <li>
-            <a href="#signin">Sign In/Sign Up</a>
+            <a href="#login">Login</a>
+          </li>
+          <li>
+            <a href="#signup">Sign Up</a>
           </li>
         </ul>
       </nav>
@@ -36,3 +36,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
+

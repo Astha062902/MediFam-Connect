@@ -1,0 +1,189 @@
+body {
+    background-color: #9AD0C2; /* Set your desired background color */
+}
+.dashboard-container {
+    display: grid;
+    grid-template-areas:
+        "profile allergies"
+        "medical-history screenings";
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.screenings-content ul,
+.medical-history-content ul {
+    margin-top: -20px; /* Remove default top margin */
+    padding-left: 30px; /* Adjust left padding to create space */
+  }
+
+.patient-info {
+    grid-area: profile;
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ECF4D6;
+}
+
+.allergies-container {
+    grid-area: allergies;
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ECF4D6;
+}
+
+.medical-history-container {
+    grid-area: medical-history;
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ECF4D6;
+}
+
+.screenings-container {
+    grid-area: screenings;
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ECF4D6;
+}
+
+.view-details {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+}
+
+.view-details i {
+    margin-right: 5px;
+    width: fit-content;
+}
+
+.screenings-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.screenings-table th,
+.screenings-table td {
+    padding: 8px;
+    border: 2px solid #060505;
+    text-align: left;
+}
+
+.screenings-table th {
+    background-color: #ECF4D6;
+}
+
+.screenings-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.patient-header {
+    display: flex;
+    align-items: right;
+}
+
+.patient-photo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 310px;
+    margin-right: 20px;
+}
+
+.patient-name {
+    margin-left: 260px;
+}
+
+.patient-details {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 13px;
+    margin-left: 0px;
+}
+
+.detail {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail i {
+    margin-right: 5px;
+}
+
+.legend {
+    margin-bottom: 10px;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.legend-bump {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.light {
+    background-color: lightcoral;
+}
+
+.moderate {
+    background-color: indianred;
+}
+
+.severe {
+    background-color: darkred;
+}
+
+.allergy-bump {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.light {
+    background-color: lightcoral;
+}
+
+.moderate {
+    background-color: indianred;
+}
+
+.severe {
+    background-color: darkred;
+}
+
+.medical-history-content,
+.screenings-content {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background-color:  black;
+}

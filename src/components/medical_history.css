@@ -1,0 +1,165 @@
+body {
+  background-color: #9AD0C2; 
+}
+.timeline-container {
+  margin-top: 50px;
+  position: relative; /* Make the container relative for absolute positioning */
+  width: 150%; /* Increase the width of the container */
+  margin: auto; /* Center the container */
+  height: 50%;
+}
+/* Add styles for the lines */
+.timeline-content hr {
+  border: 0.5px solid rgb(177, 176, 176); /* Change this to the color you want */
+  margin-top: 10px; /* Adjust margin as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.timeline {
+  list-style-type: none;
+  padding: 0;
+}
+.timeline-item {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-date {
+  margin-left: 220px;
+  min-width: 100px;
+  margin-top: 130px;
+}
+.date-year {
+  font-weight: bolder;
+  font-size:x-large; /* Adjust the font size of the year */
+  display: block;
+  margin-left: 10px;
+}
+
+.date-month {
+  font-weight: 700;
+  font-size: large; /* Adjust the font size of month and date */
+  display: block;
+  margin-top: -20px;
+}
+.timeline-content {
+  background-color: #ECF4D6;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 20px;
+  width: 100%; /* Adjust the width of the content */
+}
+.timeline-content ul {
+  margin-top: -20px; /* Remove default top margin */
+  padding-left: 30px; /* Adjust left padding to create space */
+}
+
+
+.timeline-line {
+  position: absolute;
+  left: 25%; /* Center the line horizontally */
+  top: -50px;
+  bottom: -50px;
+  width: 3px; /* Adjust the width of the line */
+  background-color: #060606;
+}
+
+.timeline-bump {
+  position: absolute;
+  left: 25.2%; /* Center the bumps horizontally */
+  width: 15px; /* Adjust the size of the bumps */
+  height: 15px; /* Adjust the size of the bumps */
+  border-radius: 50%; /* Create circle bumps */
+  border: 5px solid #353434; 
+  top: 155px;
+  background-color: #c5cfd3;
+  transform: translateX(-50%) translateY(-50%);
+}
+.hospital-name {
+  font-size: 12px; /* Define smaller font size */
+  color: #888; /* Adjust font color */
+  margin-top: 5px; /* Add some top margin */
+  margin-bottom: 10px; /* Add some bottom margin */
+}
+
+.clinical-reports {
+  display: flex;
+  justify-content: space-between; /* Position the elements side by side */
+  margin-top: 10px;
+}
+
+.clinical-reports-text{
+  border: 1px solid blue; /* Add borders around clinical reports and view details */
+  padding: 5px;
+  border-radius: 0px;
+  color: #007bff;
+}
+.view-details-text {
+  border: 1px solid #060505; /* Add borders around clinical reports and view details */
+  padding: 5px;
+  border-radius: 0px;
+}
+.view-details-container {
+  display: flex;
+  align-items: center;
+}
+
+.view-details-container i {
+  margin-left: 5px;
+}
+/* Updated CSS */
+.notes-section {
+  border: 1px solid #060505;/* Add border */
+  padding: 20px; /* Add padding */
+  margin-top: 20px; /* Add some top margin */
+  display: flex;
+  align-items: center;
+}
+
+.notes-text {
+  font-size: 16px; /* Adjust font size */
+  margin-right: 10px; /* Add some right margin */
+}
+
+.notes-box {
+  border: 1px solid #060505; /* Add border */
+  padding: 10px; /* Add padding */
+  margin-left: 10px;
+  margin-top: 7px; /* Add top margin */
+  background-color: #f9f9f9; /* Add background color */
+}
+
+.notes-box p {
+  margin: 0; /* Remove default margin */
+  width:350px;
+}
+
+
+.attachments-icon {
+  font-size: 20px; /* Adjust icon size */
+  color: #555; /* Adjust icon color */
+}
+.add-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.add-button {
+  background-color: #ECF4D6;
+  color: black;
+  border: none;
+  border-radius: 0%;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}

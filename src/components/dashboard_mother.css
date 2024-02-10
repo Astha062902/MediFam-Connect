@@ -1,0 +1,155 @@
+body {
+    background-color: #9AD0C2; /* Set your desired background color */
+}
+.dashboard-container {
+    display: grid;
+    grid-template-areas:
+        "profile allergies"
+        "menstrual obstetric";
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.view-details {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 30px;
+}
+
+.view-details i {
+    margin-right: 5px;
+}
+
+.menstrual-info-container,
+.obstetric-history-container,
+.allergies-container {
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ECF4D6;
+}
+
+h3 {
+    margin-top: 0;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background-color:  black;
+}
+
+.patient-info {
+    grid-area: profile; /* Set the profile section to grid area 'profile' */
+    border: 2px solid #060505;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.patient-header {
+    display: flex;
+    align-items: right;
+}
+
+.patient-photo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-right: 20px;
+}
+
+.patient-name {
+    margin-left: 200px;
+}
+
+.patient-details {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 13px;
+    margin-left: 0px;
+}
+
+.detail {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail i {
+    margin-right: 5px;
+}
+
+.legend {
+    margin-bottom: 10px;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.legend-bump {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.allergy-bump {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.light {
+    background-color: lightcoral;
+}
+
+.moderate {
+    background-color: indianred;
+}
+
+.severe {
+    background-color: darkred;
+}
+
+.menstrual-info-content,
+.obstetric-history-content {
+    margin-top: 10px;
+}
+
+.obstetric-history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.obstetric-history-table th,
+.obstetric-history-table td {
+    padding: 8px;
+    border: 2px solid #060505;
+    text-align: center; /* Center align the content */
+}
+
+.obstetric-history-table th {
+    background-color: #f2f2f2;
+}
+
+.obstetric-history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

@@ -12,7 +12,7 @@ Our Web App aims to alleviate the above issues by providing a platform to organi
  * Customization: Our web app is customized to display data relevant to a patient's age and gender. This personalized approach ensures that Medifam remains relevant and adaptable to your family's healthcare needs, from childhood through old age.
  * Comprehensive Record Keeping: Our platform allows doctors to submit symptoms, diagnoses, treatment plans, and other pertinent details that can be accessed during future visits or shared with other healthcare providers involved in your care.
 By offering these features, our web app streamlines the management of healthcare records, promotes better communication between patients and healthcare providers, and ultimately enhances the overall quality of care delivered to families.
-
+ ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/logo2.0.jpg)
 ## General Functionality
 ### Profiles Page
 - Presents options for "rider" and "driver" profiles, allowing users to select based on their specific needs.
@@ -41,13 +41,13 @@ By offering these features, our web app streamlines the management of healthcare
       - Electrocardiography
       - Other
 ### Medical History
-      - Timeline of Conditions
-      - Procedures Used
-      - Immunizations
-      - Clinical Reports
+      * Timeline of Conditions
+      * Procedures Used
+      * Immunizations
+      * Clinical Reports
  ### Reminders
-  Allows users to:
-    * Set reminders for Medications and Appointments
+    Allows users to:
+    *  Set reminders for Medications and Appointments
     * Utilize Calendar Features
 ## Screenshots of Our Project
 

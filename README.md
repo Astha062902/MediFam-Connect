@@ -48,7 +48,7 @@ By offering these features, our web app streamlines the management of healthcare
       - Blood Test
       - Electrocardiography
       - Other
- ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/labtest.jpg)   
+  
   ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/labtest.jpeg)   
  
 ### Medical History

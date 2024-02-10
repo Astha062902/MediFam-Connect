@@ -1,5 +1,5 @@
 # MEDIFAM CONNECT
-MediFam connect, a webapp that streamlines the organization and accessibility of family health records.
+A Webapp that streamlines the organization and accessibility of family health records.
 ## Problem Statement
  * Maintaining healthcare records of an entire family is cumbersome and disorganized task, the burden of which usually falls on one person. Managing numerous physical files, prescriptions, lab reports can lead to inefficiencies and potential errors in healthcare management.
 

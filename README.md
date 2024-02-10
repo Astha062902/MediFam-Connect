@@ -1,9 +1,10 @@
 # MEDIFAM CONNECT
 A Webapp that streamlines the organization and accessibility of family health records.
 ## Problem Statement
-* Maintaining healthcare records for an entire family is a burdensome and disorganized task, often shouldered by one individual. Managing numerous physical files, prescriptions, and lab reports leads to inefficiencies and potential errors in healthcare management.
+ * Maintaining healthcare records for an entire family is a burdensome and disorganized task, often shouldered by one individual. Managing numerous physical files, prescriptions, and lab reports leads to inefficiencies and potential errors in healthcare management.
 
-* Patients, coming from diverse educational backgrounds, often struggle to convey comprehensive medical histories or describe their current medications accurately. Many patients lack knowledge about their family medical history, further complicating the process for healthcare providers. Healthcare professionals are burdened with manually sifting through records and reports to gather essential information for effective treatment.
+ * Patients, coming from diverse educational backgrounds, often struggle to convey comprehensive medical histories or describe their current medications accurately. Many patients lack knowledge about their family medical history, further complicating the process for healthcare providers. Healthcare professionals are burdened with manually sifting through records and reports to gather essential information for effective treatment.
+  
 There's a pressing need for a streamlined solution that simplifies the organization and accessibility of family healthcare records while addressing patients' varying levels of medical literacy and knowledge about their medical histories.
 ## Solution
 MediFam connect, a webapp that streamlines the organization and accessibility of family health records.Where functionalities are based on age and gender
@@ -31,7 +32,7 @@ By offering these features, our web app streamlines the management of healthcare
     - Obstetric Current Medications
       - View Current Medication
       - Add New Medication
-  ### Laboratory Tests
+### Laboratory Tests
       - X-Ray
       - MRI
       - CT Scan
@@ -39,7 +40,7 @@ By offering these features, our web app streamlines the management of healthcare
       - Blood Test
       - Electrocardiography
       - Other
-  ### Medical History
+### Medical History
       - Timeline of Conditions
       - Procedures Used
       - Immunizations
@@ -48,6 +49,6 @@ By offering these features, our web app streamlines the management of healthcare
   Allows users to:
     * Set reminders for Medications and Appointments
     * Utilize Calendar Features
-
+## Screenshots of Our Project
 
 

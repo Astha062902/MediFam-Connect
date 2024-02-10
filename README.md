@@ -12,36 +12,41 @@ Our Web App aims to alleviate the above issues by providing a platform to organi
 By offering these features, our web app streamlines the management of healthcare records, promotes better communication between patients and healthcare providers, and ultimately enhances the overall quality of care delivered to families.
 
 ## General Functionality
-### Profiles Page
-Shows the option of rider and driver , The user depending on their use case choose one of the them.
-### Dashboard
-#### GrandFather
- * Patient Information
- * Allergies
- * Medical History
- * Recent Screenings/ Laboratory Test
-#### Mother
- * Patient Information
- * Allergies
- * Menstrual Information
- * Obstetric 
-### Current Medications
- * Display of Current Medication
- * Add New Medication
-### Labortory Tests
- * X-Ray
- * MRI
- * CT Scan
- * Eye Test
- * Blood Test
- * Electrocardiography
- * Other
-### Medical History 
- * Timeline of the Conditions
- * Procedure used
- * Immunizations
- * Clinical Reports
+**Profiles Page**
+- Presents options for "rider" and "driver" profiles, allowing users to select based on their specific needs.
+
+**Dashboard**
+- **Grandfather**
+  - Includes sections for:
+    - Patient Information
+    - Allergies
+    - Medical History
+    - Recent Screenings/Laboratory Tests
+- **Mother**
+  - Contains sections for:
+    - Patient Information
+    - Allergies
+    - Menstrual Information
+    - Obstetric Current Medications
+      - View Current Medication
+      - Add New Medication
+    - Laboratory Tests
+      - X-Ray
+      - MRI
+      - CT Scan
+      - Eye Test
+      - Blood Test
+      - Electrocardiography
+      - Other
+    - Medical History
+      - Timeline of Conditions
+      - Procedures Used
+      - Immunizations
+      - Clinical Reports
 ### Reminders
- * Add reminders of Medications , Appointments
- * Calender Feature
+ Allows users to:
+    * Set reminders for Medications and Appointments
+    * Utilize Calendar Features
+
+
 

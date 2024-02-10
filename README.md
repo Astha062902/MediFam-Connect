@@ -13,8 +13,10 @@ Our Web App aims to alleviate the above issues by providing a platform to organi
  * Comprehensive Record Keeping: Our platform allows doctors to submit symptoms, diagnoses, treatment plans, and other pertinent details that can be accessed during future visits or shared with other healthcare providers involved in your care.
 By offering these features, our web app streamlines the management of healthcare records, promotes better communication between patients and healthcare providers, and ultimately enhances the overall quality of care delivered to families.
 
- ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/logo.jpg)
- 
+<p align="center">
+  <img src="https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/logo.jpg" />
+</p>
+
 ## General Functionality
 
 ### HomePage

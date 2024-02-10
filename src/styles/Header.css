@@ -1,1 +1,35 @@
+/* Header.css */
 
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* Adjust color to your design */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  }
+  
+  .logo-container img {
+    max-height: 50px; /* Adjust height as needed */
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .main-nav li {
+    margin-right: 20px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #333; /* Adjust color to your design */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .main-nav a:hover {
+    color: #007bff; /* Adjust hover color to your design */
+  }
+  

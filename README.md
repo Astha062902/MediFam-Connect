@@ -61,7 +61,7 @@ By offering these features, our web app streamlines the management of healthcare
 ### Medications
     * Easily add new medications 
     * View current medications with all instructions
- 
+ ![](https://github.com/Anamika-K20/MediFam-Connect/blob/main/Images/medication.jpg)
 ### Reminders
     * Set reminders for Medications and Appointments
     * Utilize Calendar Features
